@@ -373,7 +373,7 @@ html{
   .logo-wrapper{
     width: 236px;
     padding-top: 54px;
-    justify-content: center;
+    padding-left: 54px;
   }
 
   .footer-list{
