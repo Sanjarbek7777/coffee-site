@@ -550,6 +550,7 @@ html{
   .cuontries-list{
     display: flex;
     margin-top: 170px;
+    margin-bottom: 120px;
   }
 
   .countries-item__text{
@@ -570,6 +571,8 @@ html{
   }
 
   /* footer */
+
+
 
   .logo-wrapper{
     padding-left: 226px;
