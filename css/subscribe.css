@@ -318,6 +318,21 @@ html{
   width: 1px;
 }
 
+.submit-button{
+  background: #0E8784;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 35px;
+  border: none;
+  margin-left: 57px;
+  margin-bottom: 120px;
+}
+
 
 /* footer */
 
