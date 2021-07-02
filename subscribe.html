@@ -73,14 +73,46 @@
 
 
       <div class="container">
-        <div class="wrapper">
-          <h2 class="form-heading">
-            How do you drink your coffee?
-          </h2>
-          <button class="button" type="button"></button>
-        </div>
+      <div class="form-content--wrapper">
+
+        <ul class="type-list">
+          <li class="type-item">
+            <a href="#" class="type-link">
+              01 Preferences
+            </a>
+          </li>
+          <li class="type-item">
+            <a href="#" class="type-link">
+              02 Bean Type
+            </a>
+          </li>
+          <li class="type-item">
+            <a href="#" class="type-link">
+              03 Quantity
+            </a>
+          </li>
+          <li class="type-item">
+            <a href="#" class="type-link">
+              04 Grind Option
+            </a>
+          </li>
+          <li class="type-item">
+            <a href="#" class="type-link">
+              05 Deliveries
+            </a>
+          </li>
+        </ul>
+
 
         <form action="echo.htmlacademy.ru" class="input">
+
+          <div class="wrapper">
+            <h2 class="form-heading">
+              How do you drink your coffee?
+            </h2>
+            <button class="button" type="button"></button>
+          </div>
+
 
           <ul class="unput-list list">
             <li class="input-item">
@@ -93,12 +125,12 @@
               </label>
             </li>
 
-            <li class="input-item">
+            <li class="input-item green-item">
               <label class="input-one" for="coffee-one">
                 <input class="coffee visually-hidden" type="radio" name="coffee" id="coffee-one" aria-label="type coffee">
                <span class="span-wrapper">
-                <span class="span-heading">Filter</span><br>
-                <span class="input-span">For pour over or drip methods like Aeropress, Chemex, and V60</span>
+                <span class="span-heading white-span">Filter</span><br>
+                <span class="input-span white-span">For pour over or drip methods like Aeropress, Chemex, and V60</span>
                </span>
               </label>
             </li>
@@ -132,12 +164,12 @@
               </label>
             </li>
 
-            <li class="input-item">
+            <li class="input-item green-item">
               <label class="input-one" for="coffee-one">
                 <input class="coffee visually-hidden" type="radio" name="coffee" id="coffee-one" aria-label="type coffee">
                <span class="span-wrapper">
-                <span class="span-heading">Decaf</span><br>
-                <span class="input-span">Just like regular coffee, except the caffeine has been removed</span>
+                <span class="span-heading white-span">Decaf</span><br>
+                <span class="input-span white-span">Just like regular coffee, except the caffeine has been removed</span>
                </span>
               </label>
             </li>
@@ -162,12 +194,12 @@
           </div>
 
           <ul class="unput-list list">
-            <li class="input-item">
+            <li class="input-item green-item">
               <label class="input-one" for="coffee-one">
                 <input class="coffee visually-hidden" type="radio" name="coffee" id="coffee-one" aria-label="type coffee">
                 <span class="span-wrapper">
-                  <span class="span-heading">250g</span> <br>
-                  <span class="input-span">Perfect for the solo drinker. Yields about 12 delicious cups.</span>
+                  <span class="span-heading white-span">250g</span> <br>
+                  <span class="input-span white-span">Perfect for the solo drinker. Yields about 12 delicious cups.</span>
                 </span>
               </label>
             </li>
@@ -222,12 +254,12 @@
               </label>
             </li>
 
-            <li class="input-item">
+            <li class="input-item green-item">
               <label class="input-one" for="coffee-one">
                 <input class="coffee visually-hidden" type="radio" name="coffee" id="coffee-one" aria-label="type coffee">
                 <span class="span-wrapper">
-                  <span class="span-heading">Cafetiére</span> <br>
-                  <span class="input-span">Course ground beans specially suited for french press coffee.</span>
+                  <span class="span-heading white-span">Cafetiére</span> <br>
+                  <span class="input-span white-span">Course ground beans specially suited for french press coffee.</span>
                 </span>
               </label>
             </li>
@@ -242,12 +274,12 @@
           </div>
 
           <ul class="unput-list list">
-            <li class="input-item">
+            <li class="input-item green-item">
               <label class="input-one" for="coffee-one">
                 <input class="coffee visually-hidden" type="radio" name="coffee" id="coffee-one" aria-label="type coffee">
                 <span class="span-wrapper">
-                  <span class="span-heading">Every week</span> <br>
-                  <span class="input-span">$7.20 per shipment. Includes free first-class shipping.</span>
+                  <span class="span-heading white-span">Every week</span> <br>
+                  <span class="input-span white-span">$7.20 per shipment. Includes free first-class shipping.</span>
                 </span>
               </label>
             </li>
@@ -273,9 +305,15 @@
             </li>
           </ul>
 
+          <blockquote class="blockquote">
+            <p class="blockquote-text">Order Summary</p>
+            <span class="white">“I drink my coffee as</span><span class="green">Filter</span><span class="white">, with a</span><span class="green">Decaf</span><span class="white"> type of bean.</span><span class="green">250g</span><span class="white">ground ala</span><span class="green">Cafetiére</span><span class="white">, sent to me </span><span class="green"> Every Week</span><span class="white">.”</span>
+          </blockquote>
+
           <button class="submit-button" type="submit">Create my plan!</button>
 
         </form>
+      </div>
     </main>
       <footer class="site-footer">
         <div class="footer-content__wrapper">
