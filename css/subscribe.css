@@ -1,5 +1,11 @@
-:root{
-  --font-family-title: 'Fraunces', serif;
+:root {
+  --dark-cyan: #0E8784;
+  --dark-grey-blue: #333D4B;
+  --pale-orange: #FDD6BA;
+  --light-grey-bg: #FEFCF7;
+  --grey: #83888F;
+  --main-font: "Barlow", "Arial", sans-serif;
+  --secondary-font: "Fraunces", "Times New Roman", serif;
 }
 
 @font-face {
@@ -790,4 +796,113 @@ html{
   margin-left: 475px;
 }
 
+}
+
+/* MODAL */
+
+.order-modal {
+  display: none;
+}
+
+.order-modal--active{
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding: 35px 24px;
+  background-color: rgba(2, 2, 2, 0.507);
+}
+.order-modal__wrapper {
+  background-color: var(--light-grey-bg);
+}
+
+.order-modal-top {
+  padding: 24px;
+  background-color: var(--dark-grey-blue);
+}
+
+.order-modal__heading {
+  margin: 0;
+  color: var(--light-grey-bg);
+  font-family: var(--secondary-font);
+}
+
+.order-modal_box {
+  padding: 24px;
+  margin-bottom: 20px;
+  background-color: var(--light-grey-bg);
+}
+
+.order-modal__content{
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: var(--grey);
+  font-family: var(--secondary-font);
+}
+.order-modal__content span{
+  color: var(--dark-cyan);
+}
+
+.order-modal__info{
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+.order-modal{
+  overflow: hidden;
+}
+
+.order-modal--active {
+  /* margin: auto; */
+  padding: 0px;
+  padding-top: 100px;
+
+}
+
+.order-modal__wrapper{
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+}
+.order-modal-top {
+  padding: 48px 56px;
+}
+
+.order-modal_box {
+  padding: 56px;
+  border-radius: 0 0 8px 8px;
+}
+.order-modal__wrapper{
+  width: 540px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  white-space: nowrap;
+  border: none;
+}
+
+.btn--primary {
+  background-color: var(--dark-cyan);
+  color: var(--light-grey-bg);
+}
+
+.btn--primary:hover {
+  background-color: #66D2CF;
+}
+
+.btn--primary:active {
+  opacity: 0.6;
 }

@@ -104,7 +104,7 @@
         </ul>
 
 
-        <form action="echo.htmlacademy.ru" class="input">
+        <form action="#" class="input">
 
           <div class="wrapper">
             <h2 class="form-heading">
@@ -310,7 +310,7 @@
             <span class="white">“I drink my coffee as</span><span class="green">Filter</span><span class="white">, with a</span><span class="green">Decaf</span><span class="white"> type of bean.</span><span class="green">250g</span><span class="white">ground ala</span><span class="green">Cafetiére</span><span class="white">, sent to me </span><span class="green"> Every Week</span><span class="white">.”</span>
           </blockquote>
 
-          <button class="submit-button" type="submit">Create my plan!</button>
+          <button class="btn btn--primary btn-create submit-button" type="submit">Create my plan!</button>
 
         </form>
       </div>
@@ -370,6 +370,22 @@
     </div>
 
 
+ <section class="order-modal">
+  <div class="order-modal__wrapper">
+    <div class="order-modal-top">
+      <h2 class="order-modal__heading">Order Summary</h2>
+    </div>
+    <div class="order-modal_box">
+      <q class="order-modal__content">I drink my coffee as <span>Filter</span>, with a <span>Decaf</span> type
+        of bean. <span>250g</span> ground ala <span>Cafetiére</span>, sent to me <span>Every Week</span>.</q>
+
+      <p class="order-modal__info">Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription
+      discount codes can also be redeemed at the checkout.
+      </p>
+      <button class="btn btn--primary btn--checkout" form="order-form" type="submit">Checkout - <span>$14.00 / mo</span></a>
+    </div>
+  </div>
+</section>
 
   <script src="js/main.js"></script>
 </body>
